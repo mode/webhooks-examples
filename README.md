@@ -4,7 +4,7 @@
 
 ----
 
-# webhooks-playbook
+# webhooks-examples
 Reusable and customizable code examples for how to utilize Mode webhooks.
 
 
