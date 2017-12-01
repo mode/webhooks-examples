@@ -57,19 +57,19 @@ This result can then be used as the payload in a POST request. A library such as
 
 The following examples are meant to serve as inspiration for building workflows using webhooks. The following examples are built to run on [AWS Lambda](https://aws.amazon.com/lambda/) and are triggered by an outgoing Mode webhook.
 
-### `post_to_destination` [(source)](https://github.com/mode/webhooks-playbook/blob/master/examples/aws_lambda/post_to_destination.py)
+### `post_to_destination` [(source)](https://github.com/mode/webhooks-examples/blob/master/examples/aws_lambda/post_to_destination.py)
 
-This module uses the output of the [`hookrich`](https://github.com/mode/webhooks-playbook/blob/master/examples/enrichment/hookrich.py) module and POSTs it to the specified destination URL. This destination could be a service such as Zapier, Slack, etc.
+This module uses the output of the [`hookrich`](https://github.com/mode/webhooks-examples/blob/master/examples/enrichment/hookrich.py) module and POSTs it to the specified destination URL. This destination could be a service such as Zapier, Slack, etc.
 
-### `post_to_slack` [(source)](https://github.com/mode/webhooks-playbook/blob/master/examples/aws_lambda/post_to_slack.py)
+### `post_to_slack` [(source)](https://github.com/mode/webhooks-examples/blob/master/examples/aws_lambda/post_to_slack.py)
 
-This module uses the output of the [`hookrich`](https://github.com/mode/webhooks-playbook/blob/master/examples/enrichment/hookrich.py)  module to contextually create a Slack message depending on the event. This module also can be customized to send alerts based on query results.
+This module uses the output of the [`hookrich`](https://github.com/mode/webhooks-examples/blob/master/examples/enrichment/hookrich.py)  module to contextually create a Slack message depending on the event. This module also can be customized to send alerts based on query results.
 
 Example output can be viewed below:
 
 ![alt text](etc/slack_post_examples.png)
 
-### `log_usage_csv` [(source)](https://github.com/mode/webhooks-playbook/blob/master/examples/aws_lambda/log_usage_csv.py)
+### `log_usage_csv` [(source)](https://github.com/mode/webhooks-examples/blob/master/examples/aws_lambda/log_usage_csv.py)
 
 This module uses Mode webhooks to log your organizations usage of Mode to a csv file.
 
