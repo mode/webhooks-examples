@@ -10,7 +10,7 @@ Reusable and customizable code examples for how to utilize Mode webhooks.
 
 ## Payload Enrichment
 
-The [hookrich](https://github.com/mode/webhooks-playbook/blob/master/examples/enrichment/hookrich.py) module acts as an intermediate enrichment layer. It takes the content of a Mode webhook as inputs. For Example, a webhook for a Report Run Completed event:
+The [hookrich](https://github.com/mode/webhooks-examples/blob/master/examples/enrichment/hookrich.py) module acts as an intermediate enrichment layer. It takes the content of a Mode webhook as inputs. For Example, a webhook for a Report Run Completed event:
 
 ```
 {
